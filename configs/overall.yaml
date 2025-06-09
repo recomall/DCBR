@@ -1,0 +1,8 @@
+data_path: './datasets'
+embedding_size: 64
+batch_size_train: 2048
+batch_size_test: 2048
+topk: [10, 20]
+neg_num: 1
+lr: 1.0e-3
+test_interval: 5

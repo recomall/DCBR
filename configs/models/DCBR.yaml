@@ -1,0 +1,88 @@
+MealRec+H:
+  dims: [1000]
+  norm: False
+  time_emb_dim: 10
+  steps: 5
+  noise_scale: 1.0
+  noise_min: 0.0001
+  noise_max: 0.02
+  sampling_noise: False
+  sampling_steps: 0
+  rebuild_k: 1
+  lambda_0: 1.0e+3
+
+  num_layers: 2
+  upsilon_UB: 0.0
+  upsilon_UI: 0.0
+  upsilon_BI: 0.3
+  xi_UB: [0.6, 0.25, 0.15]
+  xi_UI: [0.35, 0.6, 0.05]
+  xi_BI: [0.55, 0.45, 0.0]
+  omega: 0.1
+
+  gamma_1: 0.3
+  gamma_2: 0.05
+  tau: 0.2
+  lambda_1: 0.02
+  lambda_2: 1.0e-5
+  epochs: 150
+
+
+MealRec+L:
+  dims: [1000]
+  norm: False
+  time_emb_dim: 10
+  steps: 5
+  noise_scale: 1.0
+  noise_min: 0.0001
+  noise_max: 0.02
+  sampling_noise: False
+  sampling_steps: 0
+  rebuild_k: 1
+  lambda_0: 1.0e+3
+
+  num_layers: 2
+  upsilon_UB: 0.05
+  upsilon_UI: 0.0
+  upsilon_BI: 0.1
+  xi_UB: [0.6, 0.3, 0.1]
+  xi_UI: [0.4, 0.6, 0.0]
+  xi_BI: [0.5, 0.4, 0.1]
+  omega: 0
+
+  gamma_1: 0.3
+  gamma_2: 0.2
+  tau: 0.2
+  lambda_1: 0.01
+  lambda_2: 1.0e-5
+  epochs: 150
+
+
+iFashion:
+  dims: [1000]
+  norm: False
+  time_emb_dim: 10
+  steps: 140
+  noise_scale: 0.1
+  noise_min: 0.0001
+  noise_max: 0.02
+  sampling_noise: False
+  sampling_steps: 0
+  rebuild_k: 1
+  lambda_0: 2.0
+
+  num_layers: 2
+  upsilon_UB: 0.05
+  upsilon_UI: 0.0
+  upsilon_BI: 0.2
+  xi_UB: [0.5, 0.5, 0.0]
+  xi_UI: [0.3, 0.4, 0.3]
+  xi_BI: [0.5, 0.5, 0.0]
+  omega: 0.5
+
+  gamma_1: 0.3
+  gamma_2: 0.2
+  tau: 0.08
+  lambda_1: 0.3
+  lambda_2: 1.0e-6
+  epochs: 50
