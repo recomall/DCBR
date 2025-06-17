@@ -7,7 +7,7 @@ PyTorch implementation for DCBR proposed in the following paper:
 
 ## Overview
 <p>
-<img src="./asset/DCBR.png" width="800">
+<img src="./assets/DCBR.png" width="800">
 </p>
 
 ## Environment
@@ -57,19 +57,19 @@ We report the best configuration, training logs, and corresponding checkpoints o
   </tr>
   <tr>
     <td align="center">MealRec<sub>H</sub><sup>+</sup></td>
-    <td><a href="https://drive.google.com/file/d/1C6kWrU1t7Xq6DSgB1jqyW6P4ioX5sl7t/view">arg</a></td>
+    <td><a href="https://drive.google.com/file/d/1C6kWrU1t7Xq6DSgB1jqyW6P4ioX5sl7t/view">conf</a></td>
     <td><a href="https://drive.google.com/file/d/1H26X_ADYM7SVmBrTQ0bGCVkbNpnO21do/view">log</a></td>
     <td><a href="https://drive.google.com/file/d/1QeaaHTPkO-g8yd73ZjBtbYdjYVswCE-0/view">checkpoint</a></td>
   </tr>
   <tr>
     <td align="center">MealRec<sub>L</sub><sup>+</sup></td>
-    <td><a href="https://drive.google.com/file/d/1MrrL24N6XrSdrLdHEfFOvq5qRm64SDQ8/view">arg</a></td>
+    <td><a href="https://drive.google.com/file/d/1MrrL24N6XrSdrLdHEfFOvq5qRm64SDQ8/view">conf</a></td>
     <td><a href="https://drive.google.com/file/d/1rRFtMWXguDCPeLBdxVylwTLPPjsDk5-x/view">log</a></td>
     <td><a href="https://drive.google.com/file/d/1HlAFDY5RTmx9RatkirTYGZSV5m_ChgsL/view">checkpoint</a></td>
   </tr>
   <tr>
     <td align="center">iFashion</td>
-    <td><a href="https://drive.google.com/file/d/1DJMRDDWSApmgo8dIvPm-lL47qu9nnMPe/view">arg</a></td>
+    <td><a href="https://drive.google.com/file/d/1DJMRDDWSApmgo8dIvPm-lL47qu9nnMPe/view">conf</a></td>
     <td><a href="https://drive.google.com/file/d/1mN6sRN81NkRw5AFX6nyD_VyTLxIKNRlW/view">log</a></td>
     <td><a href="https://drive.google.com/file/d/1F3wN8EGcs0f5AaR92-pk25va9M9Qejn5/view">checkpoint</a></td>
   </tr>
